@@ -206,8 +206,8 @@ class _ChatPageState extends State<ChatPage> {
             child: Row(
               children: [
                 SizedBox(
-                  width: 65,
-                  height: 70,
+                  width: 60,
+                  height: 60,
                   child: CircleAvatar(
                     radius: 50,
                     backgroundImage:
@@ -229,6 +229,7 @@ class _ChatPageState extends State<ChatPage> {
                         fontWeight: FontWeight.w500,
                         color: Color(0xff222222),
                       ),
+                      overflow: TextOverflow.fade,
                     ),
                     const SizedBox(
                       height: 4,

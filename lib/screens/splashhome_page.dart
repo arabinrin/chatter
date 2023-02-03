@@ -16,7 +16,7 @@ class _SplashPageHomeState extends State<SplashPageHome> {
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
       splash: Image.asset("assets/splash-logo.png"),
-      nextScreen: HomePage(),
+      nextScreen:const HomePage(),
       duration: 5,
       splashIconSize: 70,
       splashTransition: SplashTransition.fadeTransition,

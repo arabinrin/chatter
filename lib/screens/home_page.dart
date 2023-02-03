@@ -12,6 +12,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../service/firebase_service.dart';
 import 'package:chat_app/models/usersmodel.dart';
 import 'package:chat_app/widgets/listusers_addbutton.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'login_page.dart';
 
@@ -140,18 +141,18 @@ class _HomePageState extends State<HomePage>
           disabledBackgroundColor: const Color(0xff2865DC).withOpacity(0.12),
           padding: const EdgeInsets.all(20),
         ),
-        child: const Icon(
+        child:  Icon(
           Icons.add,
-          size: 36,
+          size: 30.h,
         ),
       ),
       backgroundColor: const Color(0xffFFFFFF),
       appBar: AppBar(
-          toolbarHeight: 136,
+          toolbarHeight: 80.h,
           backgroundColor: Colors.white,
           shadowColor: Colors.transparent,
           automaticallyImplyLeading: false,
-          leadingWidth: 110,
+          leadingWidth: 80.h,
           leading: Padding(
             padding: const EdgeInsets.only(left: 30, top: 23),
             child: InkWell(

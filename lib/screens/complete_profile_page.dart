@@ -73,7 +73,7 @@ class _CompleteProfileState extends State<CompleteProfile> {
     if (imagefile != null || fullname != "" || about != "") {
       uploadData(fullname, about);
     } else {
-      print("Please Fill all Values");
+      print("---------------Please Fill all Values------------");
     }
   }
 
